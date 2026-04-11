@@ -19,7 +19,7 @@ spec:
         - name: ghcr-pull-secret
       containers:
         - name: my-app
-          image: ghcr.io/kse-8c97d26c4ecca9057c6ed7b70b5640/my-app:db2cca7a9cb5607c5a5218f71e464f5e2239d385
+          image: ghcr.io/kse-8c97d26c4ecca9057c6ed7b70b5640/my-app:8d4fe1a566521a10a1f5ac56e71c64e899eae193
           ports:
             - name: http
               containerPort: 3000
